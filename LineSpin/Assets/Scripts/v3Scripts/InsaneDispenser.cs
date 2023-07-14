@@ -307,7 +307,7 @@ public class InsaneDispenser : MonoBehaviour {
 		projectile2.Speed = GameManager.Instance.projectileSpeed5; 
 		waitTime = GameManager.Instance.firstWaitTime5;
 		waitTime2 = GameManager.Instance.secondWaitTime1;//dontmatter
-		line.transform.rotation = new Quaternion (0, 0, GameManager.Instance.lineRotation, 0);
+		line.transform.rotation = new Quaternion (0, 0, 0, 0);
 		line.spinningSpeed = GameManager.Instance.lineSpinningSpeed5;  
 		hasWaitedForFirstSpeedChange = false; 	
 	}

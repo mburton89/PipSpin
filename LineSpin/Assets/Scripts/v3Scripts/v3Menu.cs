@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class v2Menu : MonoBehaviour {
+public class v3Menu : MonoBehaviour {
 
 	public GameObject NormalButton;
 	public GameObject InsaneButton;
